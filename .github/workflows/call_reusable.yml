@@ -3,7 +3,7 @@ on:
   workflow_dispatch
 jobs:
   job1:
-    uses: add-min/reusㄷableWorkflowExample/.github/workflows/reusable-workflow.yml@main
+    uses: add-min/reuseableWorkflowExample/.github/workflows/reusable-workflow.yml@main
     with:
       input1: 10  # 입력 input1 을 10으로 하여 reusable-workflow 실행
 
